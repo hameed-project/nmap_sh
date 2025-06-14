@@ -10,7 +10,7 @@ TARGET=$1
 
 # Ports to scan
 START_PORT=1
-END_PORT=16365
+END_PORT=65535
 
 echo "Scanning $TARGET for open TCP ports from $START_PORT to $END_PORT..."
 
